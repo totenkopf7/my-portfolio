@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import IconLink from "./IconLink";
-import { Box, Tooltip } from "@mui/material";
+import { Box } from "@mui/material";
+//import { Tooltip } from "@mui/material";
 
 function PortfolioBlock({ image, live, source, title, showSource, showLive, icons, description }) {
    const [showDescription, setShowDescription] = useState(false);
